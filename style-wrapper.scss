@@ -1,0 +1,15 @@
+@import './components/icon.min.css';
+
+.provideFeedbackView {
+  @import '_semantic-ui';
+}
+
+.ui.dropdown > .dropdown.icon {
+  font-family: 'Icons' !important;
+}
+
+.ui.checkbox input:checked ~ .box:after, .ui.checkbox input:checked ~ label:after {
+  font-weight: bold;
+  content: '\f00c' !important;
+  font-family: 'Icons' !important;
+}
